@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Input Tags & Forms in HTML</title>
+
+</head>
+
+<body>
+
+<!-- CheckBox -->
+
+<label >Select all technologies which u wanna explore: </label>
+
+<input type="checkbox" name="technologyField" id="tech1" value="c"><label for="tech1">C</label> 
+
+<input type="checkbox" name="technologyField" id="tech2" value="c++"><label for="tech2">C++</label> 
+
+<input type="checkbox" name="technologyField" id="tech3" value="java" checked><label for="tech3">Java</label>
+
+<input type="checkbox" name="technologyField" id="tech4" value="py" checked><label for="tech4">Py</label>
+
+<br />
+
+<br />
+
+<!-- Radio Btn -->
+
+<label >Gender:</label>
+
+<input type="radio" name="gender" id="m" checked/><label for="m">Men</label> 
+
+<input type="radio" name="gender" id="w" /><label for="w">Women</label> 
+
+<input type="radio" name="gender" id="p" /><label for="p">Prefer Not to Say</label> 
+
+<br />
+
+<br />
+
+<!-- DropDown -->
+
+<label>Select Gender:</label>
+
+<select name="gender">
+
+<option value=""></option>
+
+<option value="men">Men</option>
+
+<option value="women">Women</option>
+
+<option value="notToSay">Prefer Not To Say</option>
+
+</select>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Input Tags & Forms in HTML</title>
+
+</head>
+
+<body>
+
+<!-- CheckBox -->
+
+<label >Select all technologies which u wanna explore: </label>
+
+<input type="checkbox" name="technologyField" id="tech1" value="c"><label for="tech1">C</label> 
+
+<input type="checkbox" name="technologyField" id="tech2" value="c++"><label for="tech2">C++</label> 
+
+<input type="checkbox" name="technologyField" id="tech3" value="java" checked><label for="tech3">Java</label>
+
+<input type="checkbox" name="technologyField" id="tech4" value="py" checked><label for="tech4">Py</label>
+
+<br />
+
+<br />
+
+<!-- Radio Btn -->
+
+<label >Gender:</label>
+
+<input type="radio" name="gender" id="m" checked/><label for="m">Men</label> 
+
+<input type="radio" name="gender" id="w" /><label for="w">Women</label> 
+
+<input type="radio" name="gender" id="p" /><label for="p">Prefer Not to Say</label> 
+
+<br />
+
+<br />
+
+<!-- DropDown -->
+
+<label>Select Gender:</label>
+
+<select name="gender">
+
+<option value=""></option>
+
+<option value="men">Men</option>
+
+<option value="women">Women</option>
+
+<option value="notToSay">Prefer Not To Say</option>
+
+</select>
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<!-- hr: horizontal line -->
+
+<hr />
+
+<br />
+
+<form action="js_script">
+
+<label for="phNum"> Phone Number: </label>
+
+<input type="number" name="phoneNumber" placeholder="pls enter number" id="phNum" value=""/>
+
+<br />
+
+<br />
+
+<label for="fName"> Full Name: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type="text" name="fullName" placeholder="pls enter full name" id="fName" required value=""/>
+
+<br />
+
+<br />
+
+<label for="pwd"> Password: </label>
+
+<input type="password" name="password" placeholder="pls enter pwd" id="pwd" required value="" />
+
+<br />
+
+<br />
+
+<label for="email"> Email: </label>
+
+<input type="email" name="email" placeholder="pls enter email" id="email" required value=""/>
+
+<br />
+
+<br />
+
+<label for="cmts">Comments:</label>
+
+<!-- <input type="text" name="comments" id="cmts" placeholder="enter ur cmts here.."/> -->
+
+<textarea name="comments" id="cmts" rows="12" cols="22" placeholder="enter ur cmts here.."></textarea>
+
+<br />
+
+<br />
+
+<label >Gender:</label>
+
+<input type="radio" name="gender" id="m" checked/><label for="m">Men</label> 
+
+<input type="radio" name="gender" id="w" /><label for="w">Women</label> 
+
+<input type="radio" name="gender" id="p" /><label for="p">Prefer Not to Say</label> 
+
+<br />
+
+<br />
+
+<label >Select all technologies which u wanna explore: </label>
+
+<input type="checkbox" name="technologyField" id="tech1" value="c"><label for="tech1">C</label> 
+
+<input type="checkbox" name="technologyField" id="tech2" value="c++"><label for="tech2">C++</label> 
+
+<input type="checkbox" name="technologyField" id="tech3" value="java" checked><label for="tech3">Java</label>
+
+<input type="checkbox" name="technologyField" id="tech4" value="py" checked><label for="tech4">Py</label>￼Enter<br />
+
+<br />
+
+<br />
+
+<br />
+
+<!-- hr: horizontal line -->
+
+<hr />
+
+<br />
+
+<form action="js_script">
+
+<label for="phNum"> Phone Number: </label>
+
+<input type="number" name="phoneNumber" placeholder="pls enter number" id="phNum" value=""/>
+
+<br />
+
+<br />
+
+<label for="fName"> Full Name: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+ type="text" name="fullName" placeholder="pls enter full name" id="fName" required value=""/>
+
+<br />
+
+<br />
+
+<label for="pwd"> Password: </label>
+
+<input type="password" name="password" placeholder="pls enter pwd" id="pwd" required value="" />
+
+<br />
+
+<br />
+
+<label for="email"> Email: </label>
+
+<input type="email" name="email" placeholder="pls enter email" id="email" required value=""/>
+
+<br />
+
+<br />
+
+<label for="cmts">Comments:</label>
+
+<!-- <input type="text" name="comments" id="cmts" placeholder="enter ur cmts here.."/> -->
+<br />
+
+<br />
+
+<label>Select Gender:</label>
+
+<select name="gender">
+
+<option value=""></option>
+
+<option value="men">Men</option>
+
+<option value="women">Women</option>
+
+<option value="notToSay">Prefer Not To Say</option>
+
+</select>
+
+<br />
+
+<br />
+
+<!-- <button type="submit">Submit</button> -->
+
+<input type="submit">
+
+<br />
+
+<br />
+
+<button type="reset">Reset</button>
+
+</form>
+
+</body>
+
+</html>
+
+
